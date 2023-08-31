@@ -27,3 +27,27 @@ const slideImage = ()=>{
 }
 
 setInterval(slideImage, 3000);
+// Crausal extends.
+
+// Sidebar showing and hidding
+let hamburger = document.getElementById("hamburger");
+let cross = document.getElementById("cross");
+
+let sidebar = document.getElementById('sideBar');
+let backDrop = document.getElementById("backDrop");
+
+hamburger.addEventListener('click', ()=>{
+    sidebar.classList.remove('disp_none');
+   backDrop.classList.remove('disp_none');
+   cross.classList.remove('disp_none');
+});
+cross.addEventListener('click', ()=>{
+    sidebar.classList.add('disp_none');
+   backDrop.classList.add('disp_none')
+   cross.classList.add('disp_none')
+});
+backDrop.addEventListener('click', ()=>{
+    sidebar.classList.add('disp_none');
+   backDrop.classList.add('disp_none')
+   cross.classList.add('disp_none')
+})

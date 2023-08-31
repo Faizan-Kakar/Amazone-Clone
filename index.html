@@ -22,7 +22,7 @@
     <div class="headerInside" id="up">
         <div class="contianerUp">
             <div class="left">
-                <i class="fa fa-bars hamburger" aria-hidden="true"></i>
+                <i id="hamburger" class="fa fa-bars hamburger" aria-hidden="true"></i>
                 <div class="logo border">
                     <img src="assets/Logo.png" alt="">
                 </div>
@@ -111,6 +111,35 @@
 </header>
 <!-- Header Ends -->
 
+<div id="sideBar" class="sideBar disp_none">
+    <div class="container">
+        <ul class="sideBarLists">
+            <li class="sideBarList upper">
+                <span class="first">Sign in<i class="fa fa-user " aria-hidden="true"></i></span>
+                <span class="second"> <strong>Browse</strong> <br> Amazon</span>
+            </li>
+            <li class="sideBarList home">
+                <span><strong>Amazon Home</strong></span><span><i class="fa fa-home" aria-hidden="true"></i></span>
+            </li>
+            <li class="sideBarList trending">
+                <span><strong>Trending</strong></span>
+                <span>Movers & Shakers</span>
+            </li>
+            <li class="sideBarList topDepartments">
+                <span class="top"><strong>Top Departments</strong></span>
+                <span>Home</span>
+                <span>Health</span>
+                <span>Books</span>
+                <span>PC</span>
+                <span>See All <i class="fa fa-angle-down" aria-hidden="true"></i></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<i id="cross" class="fa fa-times disp_none" aria-hidden="true"></i>
+
+<div id="backDrop" class="backDrop disp_none"></div>
+
 <!-- Crausal Section -->
 <div class="topCrausal">
     <div class="container">
@@ -125,7 +154,8 @@
         </div>
 
         <div class="mainContent">
-            <div class="container">
+            <!-- <div class="container"> -->
+
                 <div class="card cornerLeft">
                     <div class="cardUpper ">
                          <h3>Laptops & Computers</h3>
@@ -182,7 +212,7 @@
                         <img src="assets/Main Section/tv.jpg" alt="">
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </div>
